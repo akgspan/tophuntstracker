@@ -1,4 +1,18 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
+<div class="container">
+  <h1>Top Hunts Tracker</h1>
+  <h4>What it took to get into the Product Hunt email digest.</h4>
+  <div class="row">
+    <div class="col-xs-3 col-sm-2">Email Date</div>
+    <div class="col-xs-1">Rank</div>
+    <div class="col-xs-2">Product</div>
+    <div class="col-xs-2">Email Upvotes</div>
+    <div class="col-xs-2">Email Comments</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 col-sm-2"><%= Time.now.strftime("%m/%d/%Y") %></div>
+    <div class="col-xs-1">1</div>
+    <div class="col-xs-2"><%= link_to("Maker MVP", "http://www.producthunt.com/tech/maker-mvp") %></div>
+    <div class="col-xs-2">605</div>
+    <div class="col-xs-2">52</div>
+  </div>
+</div>
