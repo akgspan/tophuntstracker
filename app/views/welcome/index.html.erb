@@ -8,6 +8,6 @@
     <div class="col-xs-2">Email Upvotes</div>
     <div class="col-xs-2">Email Comments</div>
   </div>
-  <%- products = Product.all %>
+  <%- products = Product.all.order('email_date desc, rank') %>
   <%= render partial: 'product', collection: products %>
 </div>
