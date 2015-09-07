@@ -5,3 +5,6 @@
   <div class="col-xs-2"><%= product.email_votes %></div>
   <div class="col-xs-2"><%= product.email_comments %></div>
 </div>
+<%- if product.rank == 5 %>
+  <hr>
+<% end %>
