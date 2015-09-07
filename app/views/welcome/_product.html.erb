@@ -1,0 +1,7 @@
+<div class="row">
+  <div class="col-xs-3 col-sm-2"><%= product.email_date.strftime("%m/%d/%Y") %></div>
+  <div class="col-xs-1"><%= product.rank %></div>
+  <div class="col-xs-3"><%= link_to(product.product_name, product.ph_url) %></div>
+  <div class="col-xs-2"><%= product.email_votes %></div>
+  <div class="col-xs-2"><%= product.email_comments %></div>
+</div>

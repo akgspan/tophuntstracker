@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ph_url: MyString
+  product_name: MyString
+  email_date: 2015-09-07
+  rank: 1
+  email_votes: 1
+  email_comment: 1
+
+two:
+  ph_url: MyString
+  product_name: MyString
+  email_date: 2015-09-07
+  rank: 1
+  email_votes: 1
+  email_comment: 1
